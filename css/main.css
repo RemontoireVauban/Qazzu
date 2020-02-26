@@ -17,6 +17,14 @@
     color: #fff;
 }
 
+.main-header-inner {
+    background: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    color: #fff;
+}
+
 .main-header .showcase {
     padding-top: 110px;
 }
@@ -56,6 +64,15 @@
 
 .carousel-item p {
     font-size: 20px !important;
+}
+
+.tabs .indicator {
+    background-color: #6a1b9a !important;
+}
+
+.btn-extend {
+    display: block;
+    width: 100%;
 }
 
 @media(max-width: 500px) {
